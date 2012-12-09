@@ -1,0 +1,24 @@
+[user]
+	name = Jóni Batista
+	email = batista.joni@gmail.com
+[alias]
+    st = status
+    co = checkout
+    ci = commit
+    rb = rebase
+    br = branch
+    df = diff
+    lg = log --oneline
+    lol = log --date-order --all --graph --format='%C(green)%h%Creset %C(red bold)%d%Creset%s'
+    lol2 = log --date-order --all --graph --format='%C(green)%h%Creset %C(yellow)%an%Creset %C(blue bold)%ar%Creset %C(red bold)%d%Creset%s'
+[color]
+    ui = true
+[core]
+    editor = vim
+[merge]
+    # tool = extMerge
+[mergetool "extMerge"]
+    cmd = extMerge "$BASE" "$LOCAL" "$REMOTE" "$MERGED"
+    trustExitCode = false
+[diff]
+    external = extDiff
