@@ -1,6 +1,6 @@
 [user]
-	name = Jóni Batista
-	email = batista.joni@gmail.com
+    name = Jóni Batista
+    email = batista.joni@gmail.com
 [alias]
     st = status
     co = checkout
@@ -22,3 +22,5 @@
     trustExitCode = false
 [diff]
     external = extDiff
+[github]
+    user = jonibatista
