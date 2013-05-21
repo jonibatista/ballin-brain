@@ -20,7 +20,10 @@
 "
 " Optional: Install opencl.vim from
 " http://www.vim.org/scripts/script.php?script_id=3157
-
+"
+" Source:
+" https://github.com/inducer/pyopencl/blob/master/contrib/pyopencl.vim
+"
 runtime! syntax/python.vim
 
 unlet b:current_syntax
