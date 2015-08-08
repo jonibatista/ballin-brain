@@ -1,6 +1,8 @@
 [user]
     name = Jóni Batista
     email = batista.joni@gmail.com
+[commit]
+    template = ~/.gitmessage
 [alias]
     st = status
     co = checkout
@@ -20,7 +22,5 @@
 [mergetool "extMerge"]
     cmd = extMerge "$BASE" "$LOCAL" "$REMOTE" "$MERGED"
     trustExitCode = false
-[diff]
-    external = extDiff
 [github]
     user = jonibatista
